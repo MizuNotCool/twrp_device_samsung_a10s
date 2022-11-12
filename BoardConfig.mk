@@ -121,7 +121,6 @@ TW_HAS_DOWNLOAD_MODE := true
 TW_INCLUDE_NTFS_3G := true
 TW_MTP_DEVICE := "Galaxy A10s"
 TW_EXCLUDE_TWRPAPP := true
-TW_EXTRA_LANGUAGES := true
 TW_USE_NEW_MINADBD := true
 TW_NO_SCREEN_TIMEOUT := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/kernel/config/usb_gadget/g1/functions/mass_storage.0/lun.%d/file"
