@@ -3,7 +3,6 @@
 /data   		ext4 /dev/block/platform/bootdevice/by-name/userdata	flags=encryptable=/dev/block/platform/bootdevice/by-name/metadata
 /recovery       emmc /dev/block/platform/bootdevice/by-name/recovery	flags=backup=1;flashimg;display="Recovery Image"
 /efs    		ext4 /dev/block/platform/bootdevice/by-name/efs 		flags=backup=0;display="Encrypting File System (EFS)"
-/metadata       ext4 /dev/block/platform/by-name/metadata	flags=wipeingui;display="Metadata"
 /misc			emmc		/dev/block/by-name/misc								flags=backup=1;display="Misc"
 /nvram          emmc /dev/block/platform/bootdevice/by-name/nvram 		flags=backup=1;display="Nvram"
 /nvdata         emmc /dev/block/platform/bootdevice/by-name/nvdata  	flags=backup=1;display="Nvdata"
